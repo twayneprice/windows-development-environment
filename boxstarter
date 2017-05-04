@@ -29,6 +29,7 @@ cinst -y sublimetext3
 ## Visual Studio 2017
 cinst -y visualstudio2017community
 if (Test-PendingReboot) { Invoke-Reboot }
+cisnt -y sql-server-express
 
 ## Ruby, Go, Python
 #cinst -y ruby
@@ -38,11 +39,13 @@ if (Test-PendingReboot) { Invoke-Reboot }
 
 cinst -y python2
 cinst -y pip
-cinst -y easy.install
+#cinst -y easy.install
 
 if (Test-PendingReboot) { Invoke-Reboot }
 
 ## Basics
+cinst -y skype
+cinst -y teamviewer
 cinst -y vlc
 cinst -y GoogleChrome
 cinst -y 7zip.install
