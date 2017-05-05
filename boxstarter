@@ -29,7 +29,7 @@ cinst -y sublimetext3
 ## Visual Studio 2017
 cinst -y visualstudio2017community
 if (Test-PendingReboot) { Invoke-Reboot }
-cisnt -y sql-server-express
+cinst -y sql-server-express
 
 ## Ruby, Go, Python
 #cinst -y ruby
