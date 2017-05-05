@@ -44,7 +44,9 @@ cinst -y pip
 if (Test-PendingReboot) { Invoke-Reboot }
 
 ## Basics
-cinst -y skype
+cinst virtualbox
+cinst virtualbox.extensionpack
+
 cinst -y teamviewer
 cinst -y vlc
 cinst -y GoogleChrome
